@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EstacionamentoCode.Dominio\EstacionamentoCode.Dominio.csproj" />
+    <ProjectReference Include="..\EstacionamentoCode.Infra\EstacionamentoCode.Infra.csproj" />
   </ItemGroup>
 
 </Project>

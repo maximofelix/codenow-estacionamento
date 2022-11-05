@@ -1,14 +1,13 @@
 # Readme.md
 ## Sistema de Controle de Estacionamento
+- Curso Code Now! de desenvolvimento C# e .net
 
-### Curso Code Now! de desenvolvimento C# e .net
-
-#### Definição
+### Definição
 Permitir controlar as vagas e gerenciar os veículos estacionados
 
 
-#### Etapas
-##### 1. Criação da Solução 'EstacionamentoCode'
+### Etapas
+#### 1. Criação da Solução 'EstacionamentoCode'
 	1.1. Criação de um Projeto Console 'EstacionamentoCode.Console' que conterá o projeto principal nessa etapa
 	1.2. Criação de um Projeto Class Library 'EstacionamentoCode.Dominio' que conterá as Classes do Modelo
 	1.3. Criação de um Projeto Class Library 'EstacionamentoCode.Infra' que conterá o Contexto e Repositórios
@@ -16,7 +15,7 @@ Permitir controlar as vagas e gerenciar os veículos estacionados
 		1.4.1. Console deverá acessar Dominio e Infra
 		1.4.2. Infra deverá acessar Domínio
 
-##### 2. Criação dos Modelos
+#### 2. Criação dos Modelos
 	2.1. Criar uma pasta Models no projeto Dominio
 	2.2. Criar as Classes na pasta Models
 	2.2.1. Classe Veiculo
@@ -45,3 +44,24 @@ Permitir controlar as vagas e gerenciar os veículos estacionados
 			2.2.2.2.06  CalcularValor(placa, tempo) - Deve calcular o valor do estacionamento, com base no tempo do veículo estacionado
 			2.2.2.2.07  Pagar(placa) - Deve identificar que o pagamento do estacionamento foi realizado
 			2.2.2.2.08  Retirar(placa) - Deve remover o veículo do Estacionamento, desde que ele esteja pago
+
+#### 3. Criação do Contexto / Persistência
+	3.1 Adicionar o Entity Framework ao projeto no Terminal do VS (VSCode ou Visual Studio)
+		3.1.1 Instalar o Entity Framework tools no VS
+			dotnet tool install --global dotnet-ef
+		3.1.2 Instalar o Entity Framework nos projetos Infra
+			dotnet add package Microsoft.EntityFrameworkCore.Design
+			dotnet add package Microsoft.EntityFrameworkCore.InMemory
+			dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+	3.2 Adicionar a Classe Context em uma pasta Contexts no projeto Infra
+		A classe deverá herdar de DbContext e definir um construtor
+			´public class Context : DbContext
+			{
+				public Context(DbContextOptions<Context> options) : base(options)
+				{
+
+				}
+			}´
+	3.3 Adicionar as Classes ao Context
+		´public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Estacionamento> Estacionamentos { get; set; }´

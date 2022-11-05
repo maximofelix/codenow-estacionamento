@@ -1,0 +1,17 @@
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\bin\Debug\net6.0\EstacionamentoCode.Infra.deps.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\bin\Debug\net6.0\EstacionamentoCode.Infra.runtimeconfig.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\bin\Debug\net6.0\EstacionamentoCode.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\bin\Debug\net6.0\EstacionamentoCode.Infra.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\bin\Debug\net6.0\EstacionamentoCode.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\bin\Debug\net6.0\EstacionamentoCode.Dominio.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.csproj.AssemblyReference.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.GeneratedMSBuildEditorConfig.editorconfig
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.AssemblyInfoInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.AssemblyInfo.cs
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.csproj.CoreCompileInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.csproj.CopyComplete
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\refint\EstacionamentoCode.Infra.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\EstacionamentoCode.Infra.genruntimeconfig.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Infra\obj\Debug\net6.0\ref\EstacionamentoCode.Infra.dll
