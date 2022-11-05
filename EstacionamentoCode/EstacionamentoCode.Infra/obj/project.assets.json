@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "EstacionamentoCode.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EstacionamentoCode.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EstacionamentoCode.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EstacionamentoCode.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../EstacionamentoCode.Dominio/EstacionamentoCode.Dominio.csproj",
+      "msbuildProject": "../EstacionamentoCode.Dominio/EstacionamentoCode.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "EstacionamentoCode.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\maxim\\.nuget\\packages\\": {},
@@ -43,7 +62,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj": {
+              "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
