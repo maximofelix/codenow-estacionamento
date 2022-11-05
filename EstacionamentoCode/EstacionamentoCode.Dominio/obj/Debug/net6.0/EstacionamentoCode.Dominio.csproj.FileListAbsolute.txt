@@ -1,0 +1,12 @@
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\bin\Debug\net6.0\EstacionamentoCode.Dominio.deps.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\bin\Debug\net6.0\EstacionamentoCode.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\bin\Debug\net6.0\EstacionamentoCode.Dominio.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.csproj.AssemblyReference.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.AssemblyInfoInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.AssemblyInfo.cs
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.csproj.CoreCompileInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\refint\EstacionamentoCode.Dominio.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\EstacionamentoCode.Dominio.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\EstacionamentoCode\EstacionamentoCode.Dominio\obj\Debug\net6.0\ref\EstacionamentoCode.Dominio.dll

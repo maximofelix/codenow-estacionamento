@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EstacionamentoCode.Console/1.0.0": {
+        "dependencies": {
+          "EstacionamentoCode.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "EstacionamentoCode.Console.dll": {}
+        }
+      },
+      "EstacionamentoCode.Dominio/1.0.0": {
+        "runtime": {
+          "EstacionamentoCode.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EstacionamentoCode.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EstacionamentoCode.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
