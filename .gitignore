@@ -1,6 +1,22 @@
 # Prerequisites
 *.d
 
+# C# Arquivos de Compilação
+*.vsidx
+*.v2
+/EstacionamentoCode/.vs/
+/.vs/
+/EstacionamentoCode/.vs/*
+/.vs/*
+codenow-estacionamento/EstacionamentoCode/.vs/*
+/codenow-estacionamento/EstacionamentoCode/.vs/*
+/obj/
+/obj/*
+obj/*
+/bin/
+/bin/*
+bin/*
+
 # Compiled Object files
 *.slo
 *.lo

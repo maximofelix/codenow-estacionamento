@@ -1,0 +1,44 @@
+﻿@using EstacionamentoCode.Dominio.Models
+@model Estacionamento
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="fundo">
+    <div class="titulo">@Html.DisplayNameFor(model => model.Id)</div>
+    <div class="valor">@Html.DisplayFor(model => model.Id)</div>
+
+    <div class="titulo">@Html.DisplayNameFor(model => model.Nome)</div>
+    <div class="valor">@Html.DisplayFor(model => model.Nome)</div>
+    
+    <div class="titulo">@Html.DisplayNameFor(model => model.QtdeVagasTotais)</div>
+    <div class="valor">@Html.DisplayFor(model => model.QtdeVagasTotais)</div>
+    
+    <div class="titulo">@Html.DisplayNameFor(model => model.PrecoInicial)</div>
+    <div class="valor">@Html.DisplayFor(model => model.PrecoInicial)</div>
+    
+    <div class="titulo">@Html.DisplayNameFor(model => model.PrecoHora)</div>
+    <div class="valor">@Html.DisplayFor(model => model.PrecoHora)</div>
+        
+
+    <div>
+        @Html.ActionLink("Voltar","Index") | 
+        @Html.ActionLink("Alterar","Edit", new {id = Model.Id}) | 
+        @Html.ActionLink("Excluir","Delete", new {id = Model.Id})
+    </div>
+</div>
+
+<style>
+    .titulo {
+        font-weight: bold;
+    }
+    .valor {
+        background-color: lightgrey;
+        padding:5px;
+    }
+    .fundo {
+        width:500px; 
+    }
+</style>

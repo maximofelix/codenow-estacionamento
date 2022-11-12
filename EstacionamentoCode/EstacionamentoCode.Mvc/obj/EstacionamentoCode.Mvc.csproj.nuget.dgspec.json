@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Mvc\\EstacionamentoCode.Mvc.csproj": {}
+  },
+  "projects": {
+    "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj",
+        "projectName": "EstacionamentoCode.Dominio",
+        "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj",
+        "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
+        "outputPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Infra\\EstacionamentoCode.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Infra\\EstacionamentoCode.Infra.csproj",
+        "projectName": "EstacionamentoCode.Infra",
+        "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Infra\\EstacionamentoCode.Infra.csproj",
+        "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
+        "outputPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj": {
+                "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Dominio\\EstacionamentoCode.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Mvc\\EstacionamentoCode.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Mvc\\EstacionamentoCode.Mvc.csproj",
+        "projectName": "EstacionamentoCode.Mvc",
+        "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Mvc\\EstacionamentoCode.Mvc.csproj",
+        "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
+        "outputPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Infra\\EstacionamentoCode.Infra.csproj": {
+                "projectPath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Infra\\EstacionamentoCode.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

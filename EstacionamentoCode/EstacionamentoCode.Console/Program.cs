@@ -2,7 +2,6 @@
 using EstacionamentoCode.Infra.Contexts;
 using System.Linq;
 
-var context = new Context();
 
 Estacionamento est = new Estacionamento();
 est.Nome = "Palace Hall";
@@ -10,15 +9,17 @@ est.PrecoInicial = 5;
 est.PrecoHora = 1;
 est.QtdeVagasTotais = 20;
 
-Veiculo veic = new Veiculo();
-veic.Placa = "AAA";
-est.Estacionar(veic);
-veic.Placa = "BBB";
-est.Estacionar(veic);
-veic.Placa = "CCC";
-est.Estacionar(veic);
-veic.Placa = "DDD";
-est.Estacionar(veic);
+Veiculo veic = new Veiculo("AAA", 1);
+est.Estacionar(veic, 1);
+
+veic = new Veiculo("BBB", 1);
+est.Estacionar(veic, 2);
+
+veic = new Veiculo("CCC", 1);
+est.Estacionar(veic, 3);
+
+veic = new Veiculo("DDD", 1);
+est.Estacionar(veic, 4);
 
 Console.WriteLine("Nome..............: " + est.Nome);
 Console.WriteLine("Tolerância........: " + est.Tolerancia);

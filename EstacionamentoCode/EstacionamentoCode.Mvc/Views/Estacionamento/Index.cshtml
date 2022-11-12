@@ -1,0 +1,44 @@
+﻿@using EstacionamentoCode.Dominio.Models
+@model IEnumerable<Estacionamento>
+
+@{
+    ViewBag.Title = "Index : Estacionamento";
+}
+
+<h1>Estacionamentos</h1
+
+    <p>
+        @Html.ActionLink("Incluir", "Create")
+    </p>
+
+<table class="table">
+    <tr class="titulo">
+        <th>@Html.DisplayNameFor(model => model.Id)</th>
+        <th>@Html.DisplayNameFor(model => model.Nome)</th>
+        <th>@Html.DisplayNameFor(model => model.QtdeVagasTotais)</th>
+        <th>@Html.DisplayNameFor(model => model.PrecoInicial)</th>
+        <th>@Html.DisplayNameFor(model => model.PrecoHora)</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+            <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+            <td>@Html.DisplayFor(modelItem => item.QtdeVagasTotais)</td>
+            <td>@Html.DisplayFor(modelItem => item.PrecoInicial)</td>
+            <td>@Html.DisplayFor(modelItem => item.PrecoHora)</td>
+            <td>
+                @Html.ActionLink("Exibir","Detail", new {id = item.Id}) | 
+                @Html.ActionLink("Alterar","Edit", new {id = item.Id}) | 
+                @Html.ActionLink("Excluir","Delete", new {id = item.Id})
+            </td>
+        </tr>
+    }
+</table>
+
+<style>
+    .titulo {
+        background-color: greenyellow;
+    }
+</style>

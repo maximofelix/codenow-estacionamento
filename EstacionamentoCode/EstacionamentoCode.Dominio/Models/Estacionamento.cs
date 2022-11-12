@@ -6,31 +6,32 @@ using System.Threading.Tasks;
 
 namespace EstacionamentoCode.Dominio.Models
 {
-    public class Estacionamento
+    public class Estacionamento : EntityBase
     {
-        public int Id { get; set; }
         public string Nome { get; set; }
         public decimal PrecoInicial { get; set; }
         public decimal PrecoHora { get; set; }
         public int Tolerancia { get; set; }
         public int QtdeVagasTotais { get; set; }
-        public List<Veiculo> Veiculos { get; set; }
+        public virtual List<Vaga> Vagas { get; set; }
 
         public Estacionamento()
         {
             Tolerancia = 1;
-            Veiculos = new List<Veiculo>();
+            Vagas = new List<Vaga>();
         }
 
-        public bool Estacionar(Veiculo veiculo)
+        public bool Estacionar(Veiculo veiculo, int horaEntrada)
         {
-            Veiculos.Add(veiculo);
+            //Veiculos.Append(veiculo);
+            var vaga = new Vaga(this, veiculo, horaEntrada);
+            Vagas.Add(vaga);
             return true;
         }
 
         public int ObterVagasOcupadas()
         {
-            return Veiculos.Count();
+            return Vagas.Where(o => o.Ocupada).Count();
         }
 
         public int ObterVagasDisponiveis()

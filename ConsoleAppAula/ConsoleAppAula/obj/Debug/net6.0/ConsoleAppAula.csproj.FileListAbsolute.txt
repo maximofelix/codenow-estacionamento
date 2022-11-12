@@ -1,0 +1,15 @@
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\bin\Debug\net6.0\ConsoleAppAula.exe
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\bin\Debug\net6.0\ConsoleAppAula.deps.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\bin\Debug\net6.0\ConsoleAppAula.runtimeconfig.json
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\bin\Debug\net6.0\ConsoleAppAula.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\bin\Debug\net6.0\ConsoleAppAula.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.csproj.AssemblyReference.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.GeneratedMSBuildEditorConfig.editorconfig
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.AssemblyInfoInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.AssemblyInfo.cs
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.csproj.CoreCompileInputs.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\refint\ConsoleAppAula.dll
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.pdb
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ConsoleAppAula.genruntimeconfig.cache
+K:\!Projetos\!ProjetosCodeNow\EstacionamentoCodeNow\codenow-estacionamento\ConsoleAppAula\ConsoleAppAula\obj\Debug\net6.0\ref\ConsoleAppAula.dll

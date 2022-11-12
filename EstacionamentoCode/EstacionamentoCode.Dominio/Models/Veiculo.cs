@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace EstacionamentoCode.Dominio.Models
 {
-    public class Veiculo
+    public class Veiculo : EntityBase
     {
-        public int Id { get; set; }
+        public Veiculo(string placa, int tipoDeVeiculo)
+        {
+            Placa = placa;
+            this.TipoDeVeiculo = tipoDeVeiculo;
+        }
+
         public string Placa { get; set; }
-        public int HoraEntrada { get; set; }
-        public int HoraSaida { get; set; }
-        public int TempoEstacionado { get; set; }
         public int TipoDeVeiculo { get; set; }
 
-        //ValidarPlaca()
-        //     - Deve verificar se a placa tem 3 caracteres
+        public virtual List<Vaga> Vagas { get; set; }
     }
 }

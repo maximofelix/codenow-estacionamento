@@ -55,13 +55,20 @@ Permitir controlar as vagas e gerenciar os veículos estacionados
 			dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 	3.2 Adicionar a Classe Context em uma pasta Contexts no projeto Infra
 		A classe deverá herdar de DbContext e definir um construtor
-			´public class Context : DbContext
+			public class Context : DbContext
 			{
 				public Context(DbContextOptions<Context> options) : base(options)
 				{
 
 				}
-			}´
+			}
 	3.3 Adicionar as Classes ao Context
-		´public DbSet<Veiculo> Veiculos { get; set; }
-        public DbSet<Estacionamento> Estacionamentos { get; set; }´
+		public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Estacionamento> Estacionamentos { get; set; }
+
+### Notas
+Criar um projeto MVC sem autenticação
+	dotnet new mvc -au None -n 'EstacionamentoCode.Mvc'
+Migrations
+	dotnet-ef migrations add DescricaoOperacao
+	dotnet-ef database update
