@@ -5,11 +5,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// # USANDO Banco de Dados SQLServer definido no AppSettings
+//builder.Services.AddDbContext<Context>(options =>
+//{
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao"),
+//                         o => o.MigrationsAssembly("EstacionamentoCode.Mvc")
+//                         );
+//});
+
+// # USANDO Banco de Dados InMemory
 builder.Services.AddDbContext<Context>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao"),
-                         o => o.MigrationsAssembly("EstacionamentoCode.Mvc")
-                         );
+    options.UseInMemoryDatabase(databaseName: "EstacionamentoContext");
 });
 
 var app = builder.Build();
