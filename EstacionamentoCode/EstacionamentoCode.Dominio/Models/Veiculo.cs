@@ -8,7 +8,11 @@ namespace EstacionamentoCode.Dominio.Models
 {
     public class Veiculo : EntityBase
     {
-        public Veiculo(string placa, int tipoDeVeiculo)
+        public Veiculo()
+        {
+
+        }
+        public Veiculo(string placa, int tipoDeVeiculo) : this()
         {
             Placa = placa;
             this.TipoDeVeiculo = tipoDeVeiculo;

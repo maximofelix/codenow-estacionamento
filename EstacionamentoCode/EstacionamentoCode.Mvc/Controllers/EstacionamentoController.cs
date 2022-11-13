@@ -28,5 +28,12 @@ namespace EstacionamentoCode.Mvc.Controllers
             var estacionamento = _contexto.Estacionamentos.Find(id);
             return View(estacionamento);
         }
+
+        [HttpPut]
+        public IActionResult Edit(int id)
+        {
+            var estacionamento = _contexto.Estacionamentos.Find(id);
+            return View(estacionamento);
+        }
     }
 }

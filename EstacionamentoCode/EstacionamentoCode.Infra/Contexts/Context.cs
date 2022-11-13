@@ -5,6 +5,10 @@ namespace EstacionamentoCode.Infra.Contexts
 {
     public class Context : DbContext
     {
+        public Context() : base()
+        {
+
+        }
         public Context(DbContextOptions<Context> options) : base(options)
         {
 
@@ -12,6 +16,18 @@ namespace EstacionamentoCode.Infra.Contexts
 
         public DbSet<Veiculo> Veiculos { get; set; }
         public DbSet<Estacionamento> Estacionamentos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            //optionsBuilder.UseSqlServer("ConexaoPadrao");
+
+            base.OnConfiguring(optionsBuilder);
+        }
 
         public Estacionamento CriarEstacionamentoTeste()
         {

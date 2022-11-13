@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "020DdMLQ9pYfi2SbxzvWyL3Pvd3UskYBXDc4QhPMHT0sDF/qsvQ19p5yqck1mH37oqXFR6JvIBjD0390lMwXdg==",
+  "dgSpecHash": "Cfub2DuLXxDmmc8n6WEq3w/rEYF+mmP2JM4UPVjyYYx1XPw3CVD2SU1Qj+EldvO6qO2lT1SPYAPvpawpIAYUng==",
   "success": true,
   "projectFilePath": "K:\\!Projetos\\!ProjetosCodeNow\\EstacionamentoCodeNow\\codenow-estacionamento\\EstacionamentoCode\\EstacionamentoCode.Mvc\\EstacionamentoCode.Mvc.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.10\\microsoft.entityframeworkcore.inmemory.6.0.10.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.10\\microsoft.entityframeworkcore.relational.6.0.10.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.10\\microsoft.entityframeworkcore.sqlserver.6.0.10.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.10\\microsoft.entityframeworkcore.tools.6.0.10.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\maxim\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
